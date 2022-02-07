@@ -93,8 +93,8 @@ ul li a:hover
     font-size: 16px;
     float: left;
     padding: 10px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .btn
@@ -106,8 +106,8 @@ ul li a:hover
     margin-top: 13px;
     color: white;
     font-size: 15px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .btn:focus
@@ -173,4 +173,126 @@ ul li a:hover
 .cn:hover
 {
     background-color: rgb(83, 0, 83);
+}
+
+.form
+{
+    width: 250px;
+    height: 380px;
+    background:rgb(31, 31, 31);
+    position: absolute;
+    top: 40px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2
+{
+    width: 230px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: purple;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input
+{
+    width: 244px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid purple;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 2px;
+    border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+.form input:focus
+{
+    outline: none;
+    color: rgb(87, 87, 87);
+}
+
+::placeholder
+{
+    color: rgb(114, 114, 114);
+    font-family: Arial;
+}
+
+.btnn
+{
+    width: 244px;
+    height: 40px;
+    background: purple;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: purple;
+    transition: 0.4s ease;
+}
+
+.btnn:hover
+{
+    background: rgb(83, 0, 83);
+    color: white;
+}
+
+.btnn a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.form .link
+{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a
+{
+    text-decoration: none;
+    color: purple;
+}
+
+.liw
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icons a
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons ion-icon
+{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.4s ease;
+}
+
+.icons ion-icon:hover
+{
+    color: purple;
 }
